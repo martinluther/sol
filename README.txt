@@ -1,6 +1,4 @@
 Introduction
-============
+==========
+This is a Plone theme for Martin Luther College's website. It is based on Plone 4.x.
 
-
-
-This product may contain traces of nuts.
