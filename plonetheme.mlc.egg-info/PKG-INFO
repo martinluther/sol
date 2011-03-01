@@ -1,0 +1,26 @@
+Metadata-Version: 1.0
+Name: plonetheme.mlc
+Version: 0.1
+Summary: New theme for Martin Luther College
+Home-page: http://mlc-wels.edu
+Author: Bob Martens
+Author-email: martenrt@mlc-wels.edu
+License: UNKNOWN
+Description: Introduction
+        ============
+        
+        
+        
+        This product may contain traces of nuts.
+        
+        Changelog
+        =========
+        
+        0.1dev (unreleased)
+        -------------------
+        
+        - Initial release
+        
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Programming Language :: Python

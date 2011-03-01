@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="plonetheme.mlc">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="MLC Clean"
+      directory="profiles/default"
+      description='Extension profile for the "MLC Clean" Plone theme.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:importStep
+      name="plonetheme.mlc.various"
+      title="MLC Clean: miscellaneous import steps"
+      description="Various import steps that are not handled by GS import/export handlers."
+      handler="plonetheme.mlc.setuphandlers.setupVarious">
+    <depends name="skins"/>
+  </genericsetup:importStep>
+
+</configure>
