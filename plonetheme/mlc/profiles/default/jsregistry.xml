@@ -25,9 +25,13 @@
 -->
 
   <javascript
-      id="++resource++plonetheme.mlc.javascripts/mlc.js"
+      id="mlc.js"
       cacheable="False" compression="safe" cookable="False"
       enabled="True" expression=""  inline="False"/>
 
+  <javascript
+      id="plugins.js"
+      cacheable="False" compression="safe" cookable="False"
+      enabled="True" expression=""  inline="False"/>
 </object>
 

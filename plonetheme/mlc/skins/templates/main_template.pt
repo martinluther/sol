@@ -43,6 +43,9 @@
         <metal:styleslot define-slot="style_slot" />
         <metal:javascriptslot define-slot="javascript_head_slot" />
 
+				<script type="text/javascript" src="http://use.typekit.com/xth3los.js"></script>
+				<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
         <meta name="viewport" content="width=device-width; initial-scale=0.6666; maximum-scale=1.0; minimum-scale=0.6666" />
         <meta name="generator" content="Plone - http://plone.org" />
     </tal:notajax>
@@ -58,7 +61,8 @@
 
 <div id="visual-portal-wrapper">
 
-        <div id="portal-top"
+<header class="clearfix">        
+<div id="portal-top"
             class="row"
             i18n:domain="plone"
             tal:condition="not:ajax_load">
@@ -66,7 +70,16 @@
             <div tal:replace="structure provider:plone.portaltop" />
 </div>
         </div>
-    <div id="portal-columns" class="row">
+</header>
+    <div id="portal-columns" class="row clearfix">
+	
+		<div tal:define="banner python:here.section_image" id="section-intro">
+			<img tal:attributes="src python:banner.absolute_url_path()" src="section-info.jpg">
+			
+			<div tal:define="parent python:banner.aq_inner.aq_parent" id="section-info">
+				<h1 tal:content="python:parent.Title() or 'Unnamed Section'">Student Life</h1>
+			</div>
+		</div>		
 
         <div id="portal-column-content" class="cell" tal:attributes="class python:sunburst_view.getColumnsClass(view)">
 
@@ -86,9 +99,6 @@
                     </div>
 
                     <metal:slot define-slot="body">
-
-                    <div><h1>Martin Luther College</h1></div>
-
                         <div id="content">
 
                             <metal:header define-slot="header" tal:content="nothing">
@@ -164,6 +174,73 @@
         </div>
         </tal:notajax>
     </div>
+
+		<div id="footer" role="contentinfo" class="clearfix">
+		<div id="footer_sections">
+			<section id="resources">
+				<h1>Resources</h1>
+
+				<ul class="col">
+					<li><a href="">Library</a></li>
+					<li><a href="">Bookstore</a></li>
+					<li><a href="">Fitness Center</a></li>
+					<li><a href="">Employment</a></li>
+				</ul>
+
+				<ul class="col">
+					<li><a href="">Network Services</a></li>
+					<li><a href="">Handbook</a></li>
+					<li><a href="">Public Relations</a></li>
+				</ul>
+			</section>
+
+			<section id="gallery">
+				<h1><a href="">Picture Gallery</a></h1>
+
+				<img src="picimg.jpg">
+			</section>
+
+			<section id="tools">
+				<h1>Tools</h1>
+
+				<ul class="col">
+					<li><a href="http://portal.mlc-wels.edu">Portal</a></li>
+					<li><a href="http://moodle.mlc-wels.edu">Moodle</a></li>
+					<li><a href="">Campus Calendar</a></li>
+					<li><a href="http://weather.mlc-wels.edu">Weather</a></li>
+				</ul>
+
+				<ul class="col">
+					<li><a href="">Directory</a></li>
+					<li><a href="">MLC Media</a></li>
+					<li><a href="">Maps &amp; Directions</a></li>
+				</ul>
+			</section>
+
+			<section id="contact_us">
+				<img class="contact_icon" src="icons/facebook.png" />
+				<img class="contact_icon" src="icons/twitter.png" />
+				<img class="contact_icon" src="icons/youtube.png" />
+				<img class="contact_icon" id="last_icon" src="icons/rss.png" />
+
+				<a href="http://wels.net"><img class="welslogo" src="welslogo.png" /></a>
+			</section>
+		</div>
+		</div>
+
+		<div id="copyright">
+			<a href="/"><img src="mlclogocolor.png" /></a>
+
+			<p>&copy; 1995-2011 Martin Luther College, New Ulm, MN 56073 | (507) 354-8221</p>
+
+			<ul>
+				<li class="first_item"><a href="./login_form">Web Admin</a></li>
+				<li><a href="">About MLC-WELS.edu</a></li>
+				<li><a href="">Style Guide</a></li>
+				<li><a href="">Privacy Policy</a></li>
+				<li class="last_item"><a href="">Contact MLC</a></li>
+			</ul>
+		</div>
 
 
     <metal:block i18n:domain="plone" tal:condition="not:ajax_load">

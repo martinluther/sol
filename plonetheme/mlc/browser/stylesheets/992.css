@@ -1,32 +1,4 @@
-/* Stylesheet for the 'MLC Clean' Plone theme */
-
-/* body {
-	font-family: "vera-sans-1","vera-sans-2";
-} */
-
-/* clear styles */
-
-div.width-full {
-  width: 100%;
-}
-
-div.position-0 {
-  margin-left: 0;
-}
-
-div.cell {
-  float: none;
-  left: 0;
-}
-
-img {
-  width: 100%;
-}
-
 /* global styles */
-
-#visual-portal-wrapper {
-}
 
 html {
   background: #F9F8FA;
@@ -55,75 +27,60 @@ img {
 
 /* header and main navigation */
 
-#portal-top {
+header {
   width: 100%;
-  background: #c71923 url('headerback.png') no-repeat scroll 750px -80px;
+  background: #c71923 url('../img/headerback.png') no-repeat scroll 750px -80px;
   height: 175px;
   border-bottom: 3px solid #f1e5cb;
 }
 
-#portal-header {
+header section {
   width: 992px;
   margin: 0 auto;
 }
 
-#portal-logo img {
+header h1 {
   float: left;
   margin: 0;
   line-height: 0;
-  display: block;
+}
+
+header h1 img {
   width: 136px;
-  height: 79px;
   margin: 15px 0;
 }
 
-h5.hiddenStructure {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#portal-globalnav {
-  background: none;
-  display: block;
+header nav ol {
   width: 620px;
   float: left;
   color: #fff;
   list-style: none;
-  margin: 30px 0 0 20px;
-  font-family:  "Myriad Pro", sans-serif;
+  margin: 45px 0 0 20px;
   padding: 0;
+  font-family:  "Myriad Pro", sans-serif;
   font-size: .9em;
   font-weight: bold;
 }
 
-#portal-globalnav li {
-  background: none;
+header nav li {
   float: left;
-  padding: 0 0;
-  margin: 0 5px;
+  padding: 5px 10px;
+  margin: 0 10px;
   text-align: center;
 }
 
-#portal-globalnav li a {
-  margin: 0;
-  padding: 5px 2px;
-  background: none;
-  border: 0;
-}
-
-#portal-globalnav li a:hover {
+header nav li:hover {
   background: #f1e5cd;
   border-radius: 5px;
   color: #363636;
 }
 
-#portal-searchbox {
+header #search {
   width: 216px;
   padding-top: 0px;
   padding-right: 0px;
   margin-right: 0px;
-  margin-top: 35px;
+  margin-top: 45px;
   text-align: right;
   float: left;
 }

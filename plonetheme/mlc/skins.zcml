@@ -4,14 +4,15 @@
     i18n_domain="plonetheme.mlc">
 
   <!-- File System Directory Views registration -->
-  <cmf:registerDirectory name="mlc_images"/>
-  <cmf:registerDirectory name="mlc_templates"/>
-  <cmf:registerDirectory name="mlc_styles"/>
+
+	<cmf:registerDirectory name="images"/>
+  <cmf:registerDirectory name="templates"/>
+  <cmf:registerDirectory name="styles"/>
+	<cmf:registerDirectory name="javascripts"/>
 
   <!-- Note: This could also be done for all folders at once
        by replacing the previous lines with this one:
-  <cmf:registerDirectory name="skins" directory="skins" recursive="True" />
-  -->
+  <cmf:registerDirectory name="skins" directory="skins" recursive="True" />  -->
 
 </configure>
 

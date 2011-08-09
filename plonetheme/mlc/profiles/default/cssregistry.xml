@@ -23,10 +23,59 @@
       ResourceRegistries/tools/CSSRegistry.py for the latest list of all
       available keys and default values.
       -->
- <stylesheet title=""
-    id="++resource++plonetheme.mlc.stylesheets/main.css"
-    media="screen" rel="stylesheet" rendering="import"
-    cacheable="True" compression="safe" cookable="True"
-    enabled="1" expression=""/>
 
+	<stylesheet title=""
+	    id="main.css"
+	    media="screen" rel="stylesheet" rendering="import"
+	    cacheable="True" compression="safe" cookable="True"
+	    enabled="1" expression=""/>
+	
+	<stylesheet title=""
+	    id="style.css"
+	    media="screen" rel="stylesheet" rendering="import"
+	    cacheable="True" compression="safe" cookable="True"
+	    enabled="1" expression=""/>
+
+	<stylesheet title=""
+	    id="1382.css"
+	    media="screen" rel="stylesheet" rendering="import"
+	    cacheable="True" compression="safe" cookable="True"
+	    enabled="1" expression=""/>
+	
+	<stylesheet title=""
+	    id="2x.css"
+	    media="screen" rel="stylesheet" rendering="import"
+	    cacheable="True" compression="safe" cookable="True"
+	    enabled="1" expression=""/>
+	
+	<stylesheet title=""
+	    id="480.css"
+	    media="screen" rel="stylesheet" rendering="import"
+	    cacheable="True" compression="safe" cookable="True"
+	    enabled="1" expression=""/>
+	
+	<stylesheet title=""
+	    id="768.css"
+	    media="screen" rel="stylesheet" rendering="import"
+	    cacheable="True" compression="safe" cookable="True"
+	    enabled="1" expression=""/>
+
+	<stylesheet title=""
+	    id="992.css"
+	    media="screen" rel="stylesheet" rendering="import"
+	    cacheable="True" compression="safe" cookable="True"
+	    enabled="1" expression=""/>
+	
+	<stylesheet title=""
+	    id="handheld.css"
+	    media="screen" rel="stylesheet" rendering="import"
+	    cacheable="True" compression="safe" cookable="True"
+	    enabled="1" expression=""/>
+	
+	<stylesheet title=""
+	    id="print.css"
+	    media="print" rel="stylesheet" rendering="import"
+	    cacheable="True" compression="safe" cookable="True"
+	    enabled="1" expression=""/>
+	
 </object>

@@ -18,13 +18,16 @@
       -->
  <object name="mlc_images"
     meta_type="Filesystem Directory View"
-    directory="plonetheme.mlc:skins/mlc_images"/>
+    directory="plonetheme.mlc:skins/images"/>
  <object name="mlc_templates"
     meta_type="Filesystem Directory View"
-    directory="plonetheme.mlc:skins/mlc_templates"/>
+    directory="plonetheme.mlc:skins/templates"/>
  <object name="mlc_styles"
     meta_type="Filesystem Directory View"
-    directory="plonetheme.mlc:skins/mlc_styles"/>
+    directory="plonetheme.mlc:skins/styles"/>
+ <object name="mlc_javascripts"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.mlc:skins/javascripts"/>
 
  <!-- A skin-path in this file corresponds to a Skin Selection in the
      'Properties' tab of the portal_skins tool, in the ZMI.
@@ -45,6 +48,8 @@
      insert-after="mlc_images"/>
   <layer name="mlc_styles"
      insert-after="mlc_templates"/>
+  <layer name="mlc_javascipts"
+     insert-after="mlc_styles "/>
  </skin-path>
 
 </object>

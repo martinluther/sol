@@ -26,6 +26,15 @@
       />
   -->
 
+	<browser:viewlet
+      name="plone.personal_bar"
+      layer=".interfaces.IThemeSpecific"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      class="plone.app.layout.viewlets.common.PersonalBarViewlet"
+      template="personal_bar.pt"
+      permission="zope2.View"
+      />
+
   <!-- Zope 3 browser resources -->
 
   <!-- Resource directory for images
@@ -33,30 +42,31 @@
     for more information about registering images as Zope 3 browser
     resources.
   -->
-  <browser:resourceDirectory
+  <!-- <browser:resourceDirectory
       name="plonetheme.mlc.images"
       directory="images"
       layer=".interfaces.IThemeSpecific"
-      />
+      /> -->
 
   <!-- Resource directory for stylesheets
     See plonetheme/mlc/browser/stylesheets/README.txt
     for more information about registering stylesheets as Zope 3 browser
     resources.
   -->
-  <browser:resourceDirectory
+  
+	<!-- <browser:resourceDirectory
       name="plonetheme.mlc.stylesheets"
       directory="stylesheets"
       layer=".interfaces.IThemeSpecific"
-      />
+      /> -->
 
   <!-- Resource directory for javascripts -->
 
-  <browser:resourceDirectory
+  <!-- <browser:resourceDirectory
       name="plonetheme.mlc.javascripts"
       directory="javascripts"
       layer=".interfaces.IThemeSpecific"
-      />
+      /> -->
 
 </configure>
 
