@@ -218,10 +218,10 @@
 			</section>
 
 			<section id="contact_us">
-				<img class="contact_icon" src="icons/facebook.png" />
-				<img class="contact_icon" src="icons/twitter.png" />
-				<img class="contact_icon" src="icons/youtube.png" />
-				<img class="contact_icon" id="last_icon" src="icons/rss.png" />
+				<img class="contact_icon" src="facebook.png" />
+				<img class="contact_icon" src="twitter.png" />
+				<img class="contact_icon" src="youtube.png" />
+				<img class="contact_icon" id="last_icon" src="rss.png" />
 
 				<a href="http://wels.net"><img class="welslogo" src="welslogo.png" /></a>
 			</section>
