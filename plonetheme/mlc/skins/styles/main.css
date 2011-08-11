@@ -42,7 +42,7 @@ html {
 }
 
 div#first_column {
-  width: 32.333%;
+  width: 31.333%;
   float: left;
   margin-right: 1%;
 }
@@ -303,8 +303,7 @@ section#features img {
 #news {
   width: 32.333%;
   float: left;
-  margin-left: 1%;
-  margin-bottom: 10px;
+  margin: 0 1% 10px;
 }
 
 #news h1 {
@@ -469,6 +468,7 @@ section#features img {
   font-size: 1.2em;
 	font-family: "Myriad Pro", sans-serif;
 	font-weight: bold;
+	display: block;
 }
 
 /* at mlc */
@@ -534,7 +534,7 @@ section#features img {
 /* footer styles */
 
 #footer {
-  padding: 2% 0 0;
+  padding: 20px 0 0;
 }
 
 #footer h1, #footer h1 a:link, #footer h1 a:visited {

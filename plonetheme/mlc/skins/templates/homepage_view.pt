@@ -1,0 +1,109 @@
+<metal:homepage use-macro="here/main_template/macros/master">
+	<div metal:fill-slot="sectionImage">
+	<section id="features">
+		<img src="mainimg.jpg" />
+	
+		<div id="feature_info">
+		<h1><a href="">Learning the How and Why of Worship</a></h1>
+	
+		<p><em>WELS National Worship Conference has their day on MLC campus. Thousands attend worship services.</em></p>
+	</div>
+	</section>
+	</div>
+	
+	<div metal:fill-slot="body">
+<div id="columns">
+	<div id="first_column">
+		<section id="audience">
+			<h1>Who Are <span>You</span>?</h1>
+			
+			<ul>
+				<li><a href="">Prospective Students</a></li>
+				<li><a href="">Current Students</a></li>
+				<li><a href="">Graduate & Adult Students</a></li>
+				<li><a href="">Alumni</a></li>
+				<li><a href="">Faculty & Staff</a></li>
+				<li><a href="">Parents & Community</a></li>
+				<li><a href="">Donors</a></li>
+			</ul>
+		</section>
+		
+		<section id="at_mlc">
+			<img src="./img/secimg.jpg">
+		</section>
+	</div>
+	
+	<section id="news">
+		<h1>News <span>&amp;</span> Notes</h1>
+	
+		<article>
+			<img src="./img/news1.jpg" />
+			
+			<h2><a href="">WELS Nation Worship Conference held at MLC</a></h2>
+			<p>June 14</p>
+		</article>
+		
+		<article>
+			<img src="./img/news2.jpg" />
+			
+			<h2><a href="">CELC Conference joins together Christians</a></h2>
+			<p>June 14</p>
+		</article>
+		
+		<article>
+			<img src="./img/news3.jpg" />
+			
+			<h2><a href="">Graduates leave MLC ready for future</a></h2>
+			<p>June 14</p>
+		</article>
+		
+		<article>
+			<img src="./img/news4.jpg" />
+			
+			<h2><a href="">Calls extended to next generation of ministers</a></h2>
+			<p>June 14</p>
+		</article>
+	</section>
+
+		<section id="events">
+			<h1>Events <span>@</span> MLC</h1>
+
+			<article>
+				<p class="cal_icon">10<em>May</em></p>
+
+				<div class="cal_info">
+					<h2><a href="">Martin Luther College</a></h2>
+					<p>11:20pm @ Luther Manor</p>
+				</div>
+			</article>
+
+			<article>
+				<p class="cal_icon">10<em>May</em></p>
+
+				<div class="cal_info">
+					<h2><a href="">SEM Student Convocation</a></h2>
+					<p>11:20pm @ Luther Manor</p>
+				</div>
+			</article>
+
+			<article>
+				<p class="cal_icon">10<em>May</em></p>
+
+				<div class="cal_info">
+					<h2><a href="">End of Year Alumni Banquet</a></h2>
+					<p>11:20pm @ Luther Manor</p>
+				</div>
+			</article>
+
+			<article>
+				<p class="cal_icon">10<em>May</em></p>
+
+				<div class="cal_info">
+					<h2><a href="">Summer Reading Lists in the Park with Many People</a></h2>
+					<p>11:20pm @ Luther Manor</p>
+				</div>
+			</article>
+		</section>
+</div>	</div>
+
+</metal:homepage>

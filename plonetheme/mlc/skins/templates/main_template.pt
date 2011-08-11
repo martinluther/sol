@@ -73,13 +73,13 @@
 </header>
     <div id="portal-columns" class="row clearfix">
 	
-		<div tal:define="banner python:here.section_image" id="section-intro">
+		<div metal:define-slot="sectionImage" tal:define="banner python:here.section_image" id="section-intro">
 			<img tal:attributes="src python:banner.absolute_url_path()" src="section-info.jpg">
 			
 			<div tal:define="parent python:banner.aq_inner.aq_parent" id="section-info">
 				<h1 tal:content="python:parent.Title() or 'Unnamed Section'">Student Life</h1>
 			</div>
-		</div>		
+		</div>
 
         <div id="portal-column-content" class="cell" tal:attributes="class python:sunburst_view.getColumnsClass(view)">
 
