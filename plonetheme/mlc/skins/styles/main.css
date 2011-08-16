@@ -3,9 +3,13 @@
 #anon-personalbar {
 }
 
-/* body {
+body {
 	font-family: "vera-sans-1","vera-sans-2";
-} */
+}
+
+a:hover {
+  text-decoration: underline;
+}
 
 /* clear styles */
 
@@ -18,10 +22,6 @@ div.position-0 {
 }
 
 div.cell {
-}
-
-img {
-  width: 100%;
 }
 
 /* global styles */
@@ -53,7 +53,6 @@ div#footer_sections {
 }
 
 img {
-  width: 100%;
 }
 
 /* header and main navigation */
@@ -187,21 +186,23 @@ h5.hiddenStructure {
   margin: -50px auto 0;
 }
 
+div#section-info {
+	width: 972px;
+}
+
 #section-info {
   background: rgba(0,0,0,.75);
   position: absolute;
   bottom: 0;
   right: 0;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  width: 972px;
-  padding: 17px 17px 10px;
+  margin: 0 10px 10px;
+  padding: 0;
 }
 
 #section-info h1 {
   font-family: "Adobe Garamond Pro";
   font-size: 2.5em;
-  padding: 0;
+  padding: 17px 17px 10px;
   color: white;
   font-weight: normal;
   line-height: 1;
@@ -246,7 +247,14 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 /* features */
 
-section#features {
+#features {
+	padding: 0;
+	line-height: 0;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#features img {
   width: 972px;
   margin: -50px auto 0;
   border: 10px solid white;
@@ -256,19 +264,14 @@ section#features {
   position: relative;
 }
 
-section#features img {
-  border: 0;
-  padding: 0;
-  margin: 0;
-}
-
 #feature_info {
   background: rgba(0,54,98,0.85);
   position: absolute;
-  top: 150px;
+  top: 300px;
   right: 0;
   width: 325px;
   padding: 10px;
+  margin-right: 10px;
 }
 
 #feature_info h1 {
@@ -281,6 +284,7 @@ section#features img {
 }
 
 #feature_info h1 a {
+  word-spacing: 2px;
   color: #fff;
 }
 
@@ -322,6 +326,7 @@ section#features img {
   width: 17%;
   float: left;
   border: 5px solid white;
+  margin-bottom: 10px;
   -webkit-box-shadow: 0 0 2px 1px rgba(0,0,0,.15);
 }
 
@@ -449,7 +454,7 @@ section#features img {
   font-size: 2em;
   margin: 0;
   padding: 0;
-  line-height: 1;
+  line-height: 1.5;
   text-align: left;
 }
 
@@ -487,6 +492,10 @@ section#features img {
 }
 
 /* column stuff */
+
+#portal-column-content {
+  margin-bottom: 20px;
+}
 
 #columns a {
   color: #003662;
@@ -529,9 +538,14 @@ section#features img {
 	font-family: "Myriad Pro", sans-serif;
 	font-weight: bold;
 	display: list-item;
+	list-style: disc;
 }
 
 /* footer styles */
+
+#footer img {
+	width: 100%;
+}
 
 #footer {
   padding: 20px 0 0;
@@ -554,7 +568,7 @@ section#features img {
   color: #416b5d;
 }
 
-.contact_icon {
+#footer .contact_icon {
   width: 17%;
   margin: 0;
   padding: 0;
@@ -567,6 +581,7 @@ section#features img {
 
 .welslogo {
   margin-top: 7%;
+  width: 100%
 }
 
 /* copyright */
@@ -625,9 +640,15 @@ div#copyright {
 }
 
 #edit-bar {
-  min-height: 2.2em;
+  min-height: 2em;
+}
+
+#edit-bar a:hover {
+  text-decoration: none;
 }
 
 #contentActionMenus .actionMenu {
   margin-bottom: 0;
 }
+
+/* news listing */
