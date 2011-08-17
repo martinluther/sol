@@ -1,18 +1,26 @@
 <metal:homepage use-macro="here/main_template/macros/master">
+
 	<div metal:fill-slot="sectionImage">
-	<div id="features">
-		<img src="mainimg.jpg" />
-	
+		<tal:setup define="catalog python:context.portal_catalog">
+		
+	<div tal:define="feature python:catalog(path={'query' : '/mlc/today/features', 'portal_type' : 'News Item'})" id="features">
+	<tal:articlesetup define="article python:feature[1].getObject()">
+		<img tal:define="scale article/@@images"
+     tal:replace="structure python: scale.scale('image',
+                  width=972, height=350).tag()" />
 		<div id="feature_info">
-		<h1><a href="">Learning the How and Why of Worship</a></h1>
-	
-		<p><em>WELS National Worship Conference has their day on MLC campus. Thousands attend worship services.</em></p>
+			<h1><a tal:content="article/Title" tal:attributes="href python:article.absolute_url()" href="">[ARTICLE TITLE]</a></h1>
+			<p><em tal:content="article/Description">[ARTICLE DESC]</em></p>
+		</div>
+	</tal:articlesetup>
 	</div>
-	</div>
+	</tal:setup>
 	</div>
 	
 <div metal:fill-slot="body">
 <div id="columns">
+	<tal:setup define="catalog python:context.portal_catalog">
+	
 	<div id="first_column">
 		<section id="audience">
 			<h1>Who Are <span>You</span>?</h1>
@@ -33,7 +41,6 @@
 		</section>
 	</div>
 	
-	<tal:setup define="catalog python:context.portal_catalog">
 	<section id="news" tal:define="news_list python:catalog(portal_type='News Item')">
 		<h1>News <span>&amp;</span> Notes</h1>
 	
@@ -63,8 +70,7 @@
 				</tal:date_object>
 			</article>
 		</section>
-		</tal:setup>
+	</tal:setup>
 </div>
 </div>
-
 </metal:homepage>

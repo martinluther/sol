@@ -177,7 +177,7 @@
 
 		<div id="footer" role="contentinfo" class="clearfix">
 		<div id="footer_sections">
-			<section id="resources">
+			<div id="resources">
 				<h1>Resources</h1>
 
 				<ul class="col">
@@ -192,15 +192,15 @@
 					<li><a href="">Handbook</a></li>
 					<li><a href="">Public Relations</a></li>
 				</ul>
-			</section>
+			</div>
 
-			<section id="gallery">
+			<div id="gallery">
 				<h1><a href="">Picture Gallery</a></h1>
 
 				<img src="picimg.jpg">
-			</section>
+			</div>
 
-			<section id="tools">
+			<div id="tools">
 				<h1>Tools</h1>
 
 				<ul class="col">
@@ -215,16 +215,18 @@
 					<li><a href="">MLC Media</a></li>
 					<li><a href="">Maps &amp; Directions</a></li>
 				</ul>
-			</section>
+			</div>
 
-			<section id="contact_us">
+			<div id="contact_us">
+				<div id="icons">
 				<img class="contact_icon" src="facebook.png" />
 				<img class="contact_icon" src="twitter.png" />
 				<img class="contact_icon" src="youtube.png" />
 				<img class="contact_icon" id="last_icon" src="rss.png" />
+				</div>
 
 				<a href="http://wels.net"><img class="welslogo" src="welslogo.png" /></a>
-			</section>
+			</div>
 		</div>
 		</div>
 
@@ -235,7 +237,8 @@
 
 			<ul>
 				<li class="first_item"><a href="./login_form">Web Admin</a></li>
-				<li><a href="">About MLC-WELS.edu</a></li>
+				<li><a href="/mlc/feedback">Feedback</a></li>
+				<li><a href="">About the Site</a></li>
 				<li><a href="">Style Guide</a></li>
 				<li><a href="">Privacy Policy</a></li>
 				<li class="last_item"><a href="">Contact MLC</a></li>

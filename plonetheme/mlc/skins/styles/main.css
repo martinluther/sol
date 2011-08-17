@@ -569,19 +569,24 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 #footer .contact_icon {
-  width: 17%;
+  width: 16%;
   margin: 0;
   padding: 0;
-  margin-right: 6.6%;
+  margin-right: 4%;
 }
 
 #last_icon {
-  margin-right: 0%;
+  margin-right: 0;
 }
 
 .welslogo {
   margin-top: 7%;
   width: 100%
+}
+
+#icons {
+  margin: auto;
+  text-align: center;
 }
 
 /* copyright */
@@ -615,7 +620,7 @@ div#copyright {
 #copyright li {
   float: left;
   font-size: .7em;
-  padding: 0 15px;
+  padding: 0 12px;
   border-left: 1px solid;
 }
 
