@@ -1,7 +1,5 @@
 <metal:page define-macro="master">
-<tal:doctype tal:replace="structure string:&lt;!DOCTYPE html PUBLIC
-  &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
-  &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;" />
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml"
     tal:define="portal_state context/@@plone_portal_state;
@@ -43,9 +41,9 @@
         <metal:styleslot define-slot="style_slot" />
         <metal:javascriptslot define-slot="javascript_head_slot" />
 
-				<script type="text/javascript" src="http://use.typekit.com/xth3los.js"></script>
+				<script type="text/javascript" src="http://use.typekit.com/lrh2xft.js"></script>
 				<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
+				
         <meta name="viewport" content="width=device-width; initial-scale=0.6666; maximum-scale=1.0; minimum-scale=0.6666" />
         <meta name="generator" content="Plone - http://plone.org" />
     </tal:notajax>
@@ -61,7 +59,7 @@
 
 <div id="visual-portal-wrapper">
 
-<header class="clearfix">        
+<div id="header" class="clearfix">        
 <div id="portal-top"
             class="row"
             i18n:domain="plone"
@@ -70,7 +68,7 @@
             <div tal:replace="structure provider:plone.portaltop" />
 </div>
         </div>
-</header>
+</div>
     <div id="portal-columns" class="row clearfix">
 	
 		<div metal:define-slot="sectionImage" tal:define="banner python:here.section_image" id="section-intro">
@@ -80,10 +78,11 @@
 				<h1 tal:content="python:parent.Title() or 'Unnamed Section'">Student Life</h1>
 			</div>
 		</div>
-
         <div id="portal-column-content" class="cell" tal:attributes="class python:sunburst_view.getColumnsClass(view)">
 
+					<metal:block define-slot="breadcrumbs">
             <div id="viewlet-above-content" tal:content="structure provider:plone.abovecontent" tal:condition="not:ajax_load" />
+					</metal:block>
 
             <metal:block define-slot="content">
                 <div metal:define-macro="content"

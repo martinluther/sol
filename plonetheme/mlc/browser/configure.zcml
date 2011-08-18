@@ -35,6 +35,15 @@
       permission="zope2.View"
       />
 
+	<browser:viewlet
+      name="plone.searchbox"
+      layer=".interfaces.IThemeSpecific"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      class="plone.app.layout.viewlets.common.SearchBoxViewlet"
+      template="searchbox.pt"
+      permission="zope2.View"
+      />
+
   <!-- Zope 3 browser resources -->
 
   <!-- Resource directory for images

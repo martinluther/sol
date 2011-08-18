@@ -26,6 +26,7 @@ plonetheme/mlc/browser/__init__.py
 plonetheme/mlc/browser/configure.zcml
 plonetheme/mlc/browser/interfaces.py
 plonetheme/mlc/browser/personal_bar.pt
+plonetheme/mlc/browser/searchbox.pt
 plonetheme/mlc/browser/viewlet.pt
 plonetheme/mlc/browser/viewlets.py
 plonetheme/mlc/locales/README.txt
@@ -47,6 +48,8 @@ plonetheme/mlc/skins/images/mlclogocolor.png
 plonetheme/mlc/skins/images/pb_close.png
 plonetheme/mlc/skins/images/picimg.jpg
 plonetheme/mlc/skins/images/rss.png
+plonetheme/mlc/skins/images/search.png
+plonetheme/mlc/skins/images/secimg.jpg
 plonetheme/mlc/skins/images/sectiondefault.jpg
 plonetheme/mlc/skins/images/twitter.png
 plonetheme/mlc/skins/images/welslogo.png

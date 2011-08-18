@@ -4,7 +4,7 @@
 }
 
 body {
-	font-family: "vera-sans-1","vera-sans-2";
+  font-family: vera-sans,sans-serif;
 }
 
 a:hover {
@@ -104,7 +104,7 @@ h5.hiddenStructure {
   float: left;
   list-style: none;
   margin: 65px 0 0 20px;
-  font-family:  "Myriad Pro", sans-serif;
+  font-family: myriad-pro,sans-serif;
   padding: 0;
   font-size: .9em;
   font-weight: bold;
@@ -125,7 +125,7 @@ h5.hiddenStructure {
 
 #portal-globalnav li a {
   margin: 0;
-  padding: 8px 2px 5px;
+  padding: 6px 2px;
   background: none;
   border: 0;
 }
@@ -149,7 +149,7 @@ h5.hiddenStructure {
 
 .searchSection {
   text-align: left;
-  padding-left: 17px;
+  padding-left: 13px;
   color: white;
 }
 
@@ -180,8 +180,9 @@ h5.hiddenStructure {
 #section-intro img {
   width: 972px;
   height: 200px;
-  -webkit-box-shadow: 0 0 2px 1px rgba(0,0,0,.15);
-  box-shadow: 0 0 2px 1px rgba(0,0,0,.15);
+  -webkit-box-shadow: 0 0 6px rgba(0,0,0,.4);
+  -moz-box-shadow: 0 0 6px rgba(0,0,0,.4);
+  box-shadow: 0 0 6px rgba(0,0,0,.4);
   border: 10px solid white;
   margin: -50px auto 0;
 }
@@ -200,7 +201,7 @@ div#section-info {
 }
 
 #section-info h1 {
-  font-family: "Adobe Garamond Pro";
+  font-family: adobe-garamond-pro,sans-serif;
   font-size: 2.5em;
   padding: 17px 17px 10px;
   color: white;
@@ -258,13 +259,16 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
   width: 972px;
   margin: -50px auto 0;
   border: 10px solid white;
-  -webkit-box-shadow: 0 0 2px 1px rgba(0,0,0,.15);
+  -webkit-box-shadow: 0 0 6px rgba(0,0,0,.4);
+  -moz-box-shadow: 0 0 6px rgba(0,0,0,.4);
+  box-shadow: 0 0 6px rgba(0,0,0,.4);
   padding: 0;
   line-height: 0;
   position: relative;
 }
 
 #feature_info {
+  background: rgb(0,54,98);
   background: rgba(0,54,98,0.85);
   position: absolute;
   top: 300px;
@@ -275,7 +279,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 #feature_info h1 {
-  font-family: "Adobe Garamond Pro";
+  font-family: adobe-garamond-pro,sans-serif;
   font-size: 1.9em;
   padding: 0;
   margin: 0 0 10px;
@@ -311,7 +315,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 #news h1 {
-  font-family: "Adobe Garamond Pro";
+  font-family: adobe-garamond-pro,sans-serif;
   font-size: 2em;
   margin: 0;
   padding: 0;
@@ -325,23 +329,28 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 #news img {
   width: 17%;
   float: left;
-  border: 5px solid white;
   margin-bottom: 10px;
   -webkit-box-shadow: 0 0 2px 1px rgba(0,0,0,.15);
+  -moz-box-shaodw: 0 0 2px 1px rgba(0,0,0,.15);
+  box-shadow: 0 0 2px 1px rgba(0,0,0,.15);
 }
 
-#news article {
+div.news_info {
+  width: 76%;
+  float: left;
+  padding: 0 0 0 4%;
+}
+
+#news .article {
   min-height: 66px;
   margin-bottom: 20px;
   clear: both;
 }
 
 #news h2, #news p {
-  font-family: "Myriad Pro";
-  width: 76%;
+  font-family: myriad-pro,sans-serif;
+  word-spacing: 2px;
   font-weight: normal;
-  float: left;
-  padding: 0 0 0 4%;
 }
 
 #news h2 {
@@ -365,7 +374,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 #events h1 {
-  font-family: "Adobe Garamond Pro";
+  font-family: adobe-garamond-pro,sans-serif;
   font-size: 2em;
   margin: 0;
   padding: 0;
@@ -376,7 +385,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
   color: #416b5d;
 }
 
-#events article {
+#events .event {
   margin-bottom: 20px;
   clear: both;
   min-height: 66px;
@@ -391,7 +400,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	background: #ededef;
 	background: -webkit-gradient(linear, left top, left bottom, from(#ededef), to(#ccc)); 
 	background: -moz-linear-gradient(top,  #ededef,  #ccc); 
-	font: bold 1.4em Myriad Pro, sans-serif;
+	font: bold 1.4em myriad-pro, sans-serif;
 	text-align:center;
 	color:#000;
 	text-shadow:#fff 0 1px 0;	
@@ -405,7 +414,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	text-align: center;
 	display:block;
 	padding: 2px 1px 1px;
-	font: normal 0.6em "Myriad Pro", sans-serif;
+	font: normal 0.6em myriad-pro, sans-serif;
 	color:#fff;
 	text-shadow:#00365a 0 -1px 0;	
 	text-transform: uppercase;
@@ -433,14 +442,14 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	margin: 0;
 	line-height: 1;
 	font-weight: normal;
-	font-samily: "Myriad Pro", sans-serif;
+	font-samily: myriad-pro, sans-serif;
 }
 
 .cal_info p {
 	margin: 0 0 5%;
 	font-size: 0.8em;
 	color: #666;
-	font-family: "Myriad Pro", sans-serif;
+	font-family: myriad-pro, sans-serif;
 }
 
 /* audience links */
@@ -450,7 +459,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 #audience h1 {
-  font-family: "Adobe Garamond Pro";
+  font-family: adobe-garamond-pro,sans-serif;
   font-size: 2em;
   margin: 0;
   padding: 0;
@@ -471,7 +480,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
   padding: 0;
   margin: 0 0 2px;
   font-size: 1.2em;
-	font-family: "Myriad Pro", sans-serif;
+  font-family: myriad-pro,sans-serif;
 	font-weight: bold;
 	display: block;
 }
@@ -481,6 +490,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 #at_mlc img {
   width: 100%;
   -webkit-box-shadow: 0 0 2px 1px rgba(0,0,0,.15);
+  box-shadow: 0 0 2px 1px rgba(0,0,0,.15);
 }
 
 /* footer */
@@ -488,7 +498,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 #footer {
   background: #1f1f1f;
   clear: both;
-  height: 180px;
+  height: 160px;
 }
 
 /* column stuff */
@@ -535,7 +545,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
   padding: 0;
   margin: 0 0 1px;
   font-size: .8em;
-	font-family: "Myriad Pro", sans-serif;
+  font-family: myriad-pro,sans-serif;
 	font-weight: bold;
 	display: list-item;
 	list-style: disc;
@@ -595,7 +605,7 @@ div#copyright {
   width: 992px;
   margin: 20px auto 0;
   height: 100px;
-	font-family: "Myriad Pro", sans-serif;
+  font-family: myriad-pro,sans-serif;
   color: #666;
 }
 

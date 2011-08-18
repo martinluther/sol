@@ -3,8 +3,8 @@
 	<div metal:fill-slot="sectionImage">
 		<tal:setup define="catalog python:context.portal_catalog">
 		
-	<div tal:define="feature python:catalog(path={'query' : '/mlc/today/features', 'portal_type' : 'News Item'})" id="features">
-	<tal:articlesetup define="article python:feature[1].getObject()">
+	<div tal:define="feature python:catalog(path={'query' : '/mlc/today/features'}, portal_type='News Item', sort_on='Date', sort_order='descending')[:1]" id="features">
+	<tal:articlesetup define="article python:feature[0].getObject()">
 		<img tal:define="scale article/@@images"
      tal:replace="structure python: scale.scale('image',
                   width=972, height=350).tag()" />
@@ -17,12 +17,14 @@
 	</tal:setup>
 	</div>
 	
+	<metal:block fill-slot="breadcrumbs"></metal:block>
+	
 <div metal:fill-slot="body">
 <div id="columns">
 	<tal:setup define="catalog python:context.portal_catalog">
 	
 	<div id="first_column">
-		<section id="audience">
+		<div id="audience">
 			<h1>Who Are <span>You</span>?</h1>
 			
 			<ul>
@@ -34,32 +36,34 @@
 				<li><a href="">Parents & Community</a></li>
 				<li><a href="">Donors</a></li>
 			</ul>
-		</section>
+		</div>
 		
-		<section id="at_mlc">
-			<img src="secimg.jpg">
-		</section>
+		<div id="at_mlc">
+			<a href=""><img src="secimg.jpg"></a>
+		</div>
 	</div>
 	
-	<section id="news" tal:define="news_list python:catalog(portal_type='News Item')">
+	<div id="news" tal:define="news_list python:catalog(path={'query' : '/mlc/today/news'}, portal_type='News Item', sort_on='Date', sort_order='descending')[:5]">
 		<h1>News <span>&amp;</span> Notes</h1>
 	
-		<article tal:repeat="item news_list">
+		<div class="article" tal:repeat="item python:news_list[:]">
 		<tal:imagesetup define="image python:item.getObject()">
 		<img tal:define="scale image/@@images"
      tal:replace="structure python: scale.scale('image',
                   width=64, height=64).tag()" />
                   </tal:imagesetup>
 			
-			<h2><a tal:content="item/Title" tal:attributes="href item/getURL">[NEWS TITLE]</a></h2>
-			<p tal:content="python:DateTime(item.Date).strftime('%B %d')">[NEWS DATE]</p>
-		</article>
-	</section>
+			<div class="news_info">
+				<h2><a tal:content="item/Title" tal:attributes="href item/getURL">[NEWS TITLE]</a></h2>
+				<p tal:content="python:DateTime(item.Date).strftime('%B %d')">[NEWS DATE]</p>
+			</div>
+		</div>
+	</div>
 
-		<section id="events" tal:define="events_list python:catalog(portal_type='Event')">
+		<div id="events" tal:define="events_list python:catalog(portal_type='Event', sort_on='start', sort_order='ascending')[:5]">
 			<h1>Events <span>@</span> MLC</h1>
 
-			<article tal:repeat="item events_list">
+			<div class="event" tal:repeat="item events_list">
 				<tal:date_object define="date_object python:DateTime(item.start)">
 				<p class="cal_icon"><span tal:replace="python:date_object.strftime('%d')">[EVENT DATE NUMBER]</span><em tal:content="python:date_object.strftime('%b')">[EVENT MONTH ABBREV]</em></p>
 
@@ -68,8 +72,8 @@
 					<p><span tal:replace="python:date_object.strftime('%I:%M%p')">11:20pm</span> @ <span tal:replace="python:item.location or 'Martin Luther College'">Luther Manor</span></p>
 				</div>
 				</tal:date_object>
-			</article>
-		</section>
+			</div>
+		</div>
 	</tal:setup>
 </div>
 </div>
