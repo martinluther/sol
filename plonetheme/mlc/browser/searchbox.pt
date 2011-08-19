@@ -12,9 +12,15 @@
                tal:attributes="for search_input_id"
                i18n:translate="text_search">Search Site</label>
 
+        <input class="searchImage"
+               type="image"
+							 src="search.png"
+							 alt="submit button"
+               i18n:attributes="value label_search;" />
+
+        <div id="searchData">
         <input name="SearchableText"
                type="text"
-               size="18"
                value=""
                title="Search Site"
                accesskey="4"
@@ -22,13 +28,7 @@
                tal:attributes="value request/form/SearchableText|nothing;
                                id search_input_id"
                class="searchField inputLabel" />
-
-        <input class="searchImage"
-               type="image"
-							 src="search.png"
-							 alt="submit button"
-               i18n:attributes="value label_search;" />
-
+               
         <div class="searchSection">
             <input id="searchbox_currentfolder_only"
                    class="noborder"
@@ -41,6 +41,7 @@
                    style="cursor: pointer">
                 only in current section
             </label>
+        </div>
         </div>
 
         <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>

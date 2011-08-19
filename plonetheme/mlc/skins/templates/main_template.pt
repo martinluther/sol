@@ -180,21 +180,21 @@
 				<h1>Resources</h1>
 
 				<ul class="col">
-					<li><a href="">Library</a></li>
-					<li><a href="">Bookstore</a></li>
-					<li><a href="">Fitness Center</a></li>
-					<li><a href="">Employment</a></li>
+					<li><a href="/mlc/library">Library</a></li>
+					<li><a href="/mlc/bookstore">Bookstore</a></li>
+					<li><a href="/mlc/fitness-center">Fitness Center</a></li>
+					<li><a href="/mlc/hr">Employment</a></li>
 				</ul>
 
 				<ul class="col">
-					<li><a href="">Network Services</a></li>
+					<li><a href="/mlc/network-services">Network Services</a></li>
 					<li><a href="">Handbook</a></li>
-					<li><a href="">Public Relations</a></li>
+					<li><a href="/mlc/mission-advancement">Public Relations</a></li>
 				</ul>
 			</div>
 
 			<div id="gallery">
-				<h1><a href="">Picture Gallery</a></h1>
+				<h1><a href="http://gallery.mlc-wels.edu">Picture Gallery</a></h1>
 
 				<img src="picimg.jpg">
 			</div>
@@ -211,7 +211,7 @@
 
 				<ul class="col">
 					<li><a href="">Directory</a></li>
-					<li><a href="">MLC Media</a></li>
+					<li><a href="/mlc/media">MLC Media</a></li>
 					<li><a href="">Maps &amp; Directions</a></li>
 				</ul>
 			</div>

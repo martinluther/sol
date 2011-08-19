@@ -52,7 +52,9 @@ div#footer_sections {
   margin: 0 auto;
 }
 
-img {
+.documentFirstHeading {
+	font-size: 2.7em;
+	margin-bottom: 10px;
 }
 
 /* header and main navigation */
@@ -149,10 +151,30 @@ h5.hiddenStructure {
 
 .searchSection {
   text-align: left;
-  padding-left: 13px;
   color: white;
+	clear: both;
 }
 
+.searchSection label:hover {
+	color: #f1e5cd;
+}
+
+input.searchImage {
+	float: right;
+	width: 20px;
+	margin: -1px 0 0 8px;
+}
+
+#searchData {
+	float:right;
+	margin-right: 4px;
+}
+
+#searchGadget {
+	width: 100%;
+	margin-bottom: 5px;
+	-moz-appearance: textField;
+}
 #portal-personaltools-wrapper {
   position: absolute;
   right: 0;
