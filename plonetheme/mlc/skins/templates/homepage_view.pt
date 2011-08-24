@@ -61,7 +61,7 @@
 		</div>
 	</div>
 
-		<div id="events" tal:define="events_list python:catalog(portal_type='Event', sort_on='start', sort_order='ascending')[:5]">
+		<div id="events" tal:define="events_list python:catalog(portal_type='Event', sort_on='start', sort_order='ascending', start={'query' : DateTime(), 'range':'min'})[:5]">
 			<h1>Events <span>@</span> MLC</h1>
 
 			<div class="event" tal:repeat="item events_list">
