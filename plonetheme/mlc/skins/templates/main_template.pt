@@ -180,16 +180,16 @@
 				<h1>Resources</h1>
 
 				<ul class="col">
-					<li><a href="/mlc/library">Library</a></li>
-					<li><a href="/mlc/bookstore">Bookstore</a></li>
-					<li><a href="/mlc/fitness-center">Fitness Center</a></li>
-					<li><a href="/mlc/hr">Employment</a></li>
+					<li><a href="http://www.mlc-wels.edu/home/academics/library">Library</a></li>
+					<li><a href="http://www.mlc-wels.edu/home/administration/offices/bookstore">Bookstore</a></li>
+					<li><a href="http://www.mlc-wels.edu/home/administration/offices/fitness">Fitness Center</a></li>
+					<li><a href="http://www.mlc-wels.edu/home/administration/offices/hr">Employment</a></li>
 				</ul>
 
 				<ul class="col">
-					<li><a href="/mlc/network-services">Network Services</a></li>
-					<li><a href="">Handbook</a></li>
-					<li><a href="/mlc/mission-advancement">Public Relations</a></li>
+					<li><a href="http://www.mlc-wels.edu/home/administration/offices/netserv">Network Services</a></li>
+					<li><a href="http://www.mlc-wels.edu/home/administration/offices/stulifeBan/daybook">Handbook</a></li>
+					<li><a href="http://www.mlc-wels.edu/home/administration/offices/ma">Public Relations</a></li>
 				</ul>
 			</div>
 
@@ -205,20 +205,20 @@
 				<ul class="col">
 					<li><a href="http://portal.mlc-wels.edu">Portal</a></li>
 					<li><a href="http://moodle.mlc-wels.edu">Moodle</a></li>
-					<li><a href="">Campus Calendar</a></li>
+					<li><a href="https://portal.mlc-wels.edu/nwpp/Information/calendar.php">Campus Calendar</a></li>
 					<li><a href="http://weather.mlc-wels.edu">Weather</a></li>
 				</ul>
 
 				<ul class="col">
-					<li><a href="">Directory</a></li>
-					<li><a href="/mlc/media">MLC Media</a></li>
-					<li><a href="">Maps &amp; Directions</a></li>
+					<li><a href="https://portal.mlc-wels.edu/nwpp/Directory/byperson.php">Directory</a></li>
+					<li><a href="http://www.mlc-wels.edu/home/media/streams/">MLC Media</a></li>
+					<li><a href="http://www.mlc-wels.edu/home/about/directions/">Maps &amp; Directions</a></li>
 				</ul>
 			</div>
 
 			<div id="contact_us">
 				<div id="icons">
-				<img class="contact_icon" src="facebook.png" />
+				<a href="https://www.facebook.com/mlcwels"><img class="contact_icon" src="facebook.png" /></a>
 				<img class="contact_icon" src="twitter.png" />
 				<img class="contact_icon" src="youtube.png" />
 				<img class="contact_icon" id="last_icon" src="rss.png" />
@@ -235,12 +235,12 @@
 			<p>&copy; 1995-2011 Martin Luther College, New Ulm, MN 56073 | (507) 354-8221</p>
 
 			<ul>
-				<li class="first_item"><a href="./login_form">Web Admin</a></li>
-				<li><a href="/mlc/feedback">Feedback</a></li>
-				<li><a href="">About the Site</a></li>
-				<li><a href="">Style Guide</a></li>
-				<li><a href="">Privacy Policy</a></li>
-				<li class="last_item"><a href="">Contact MLC</a></li>
+				<li class="first_item"><a href="login_form">Web Admin</a></li>
+				<li><a href="feedback">Site Feedback</a></li>
+				<li><a href="about-the-site">About the Site</a></li>
+				<!-- <li><a href="">Style Guide</a></li> -->
+				<!-- <li><a href="">Privacy Policy</a></li> -->
+				<li class="last_item"><a href="http://www.mlc-wels.edu/home/contact">Contact MLC</a></li>
 			</ul>
 		</div>
 
