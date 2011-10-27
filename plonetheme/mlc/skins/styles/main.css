@@ -57,6 +57,10 @@ div#footer_sections {
 	margin-bottom: 10px;
 }
 
+#content a:hover, dl.portlet a:hover {
+color: #205C90 !important;
+}
+
 /* header and main navigation */
 
 #portal-top div.position-0 {
@@ -234,6 +238,10 @@ div#section-info {
   text-transform: none;
 }
 
+#section-info a:hover {
+	color: white;
+}
+
 #portal-column-content {
 }
 
@@ -249,10 +257,15 @@ ul.navTree {
 dl.portlet ul.navTree .navTreeCurrentItem {
   background-color: #f1e5cb;
   border-left: 1em solid #f1e5cb;
+	padding: 5px 0 3px 0;
 }
 
 .navTree li a span {
   color: #111111;
+}
+
+#content .navTree a:hover, dl.portlet a:hover {
+	color: #111111 !important;
 }
 
 dl.portlet ul.navTreeLevel0 > .navTreeItem {

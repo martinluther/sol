@@ -41,8 +41,8 @@
         <metal:styleslot define-slot="style_slot" />
         <metal:javascriptslot define-slot="javascript_head_slot" />
 
-				<script type="text/javascript" src="http://use.typekit.com/lrh2xft.js"></script>
-				<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+				<script type="text/javascript" src="https://use.typekit.com/lrh2xft.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 				
         <meta name="viewport" content="width=device-width; initial-scale=0.6666; maximum-scale=1.0; minimum-scale=0.6666" />
         <meta name="generator" content="Plone - http://plone.org" />
@@ -75,7 +75,7 @@
 			<img tal:attributes="src python:banner.absolute_url_path()" src="section-info.jpg">
 			
 			<div tal:define="parent python:banner.aq_inner.aq_parent" id="section-info">
-				<h1 tal:content="python:parent.Title() or 'Unnamed Section'">Student Life</h1>
+				<a tal:attributes="href python:parent.absolute_url_path()"><h1 tal:content="python:parent.Title() or 'Unnamed Section'">Student Life</h1></a>
 			</div>
 		</div>
         <div id="portal-column-content" class="cell" tal:attributes="class python:sunburst_view.getColumnsClass(view)">
@@ -219,8 +219,8 @@
 			<div id="contact_us">
 				<div id="icons">
 				<a href="https://www.facebook.com/mlcwels"><img class="contact_icon" src="facebook.png" /></a>
-				<img class="contact_icon" src="twitter.png" />
-				<img class="contact_icon" src="youtube.png" />
+				<a href="http://twitter.com/mlcknights"><img class="contact_icon" src="twitter.png" /></a>
+				<a href="http://www.youtube.com/user/MLCathletics"><img class="contact_icon" src="youtube.png" /></a>
 				<img class="contact_icon" id="last_icon" src="rss.png" />
 				</div>
 
