@@ -184,13 +184,14 @@
 					<li><a href="http://www.mlc-wels.edu/home/administration/offices/bookstore">Bookstore</a></li>
 					<li><a href="http://www.mlc-wels.edu/home/administration/offices/fitness">Fitness Center</a></li>
 					<li><a href="http://www.mlc-wels.edu/home/administration/offices/hr">Employment</a></li>
+					<li><a href="/consumer-information/">Consumer Information</a></li>
 				</ul>
 
 				<ul class="col">
 					<li><a href="http://www.mlc-wels.edu/home/administration/offices/netserv">Network Services</a></li>
 					<li><a href="http://www.mlc-wels.edu/home/administration/offices/stulifeBan/daybook">Handbook</a></li>
 					<li><a href="http://www.mlc-wels.edu/home/administration/offices/ma">Public Relations</a></li>
-					<li><a href="http://www.mlc-wels.edu/go/finaid">Financial Aid</a></li>
+					<li><a href="/financial-aid/">Financial Aid</a></li>
 				</ul>
 			</div>
 
@@ -205,15 +206,16 @@
 
 				<ul class="col">
 					<li><a href="http://portal.mlc-wels.edu">Portal</a></li>
+					<li><a href="http://mail.mlc-wls.edu">Webmail</a></li>
 					<li><a href="http://moodle.mlc-wels.edu">Moodle</a></li>
-					<li><a href="https://portal.mlc-wels.edu/nwpp/Information/calendar.php">Campus Calendar</a></li>
 					<li><a href="http://weather.mlc-wels.edu">Weather</a></li>
 				</ul>
 
 				<ul class="col">
 					<li><a href="https://portal.mlc-wels.edu/nwpp/Directory/byperson.php">Directory</a></li>
 					<li><a href="http://www.mlc-wels.edu/home/media/streams/">MLC Media</a></li>
-					<li><a href="http://www.mlc-wels.edu/home/about/directions/">Maps &amp; Directions</a></li>
+					<li><a href="https://portal.mlc-wels.edu/nwpp/Information/calendar.php">Calendar</a></li>
+					<li><a href="http://www.mlc-wels.edu/home/about/directions/">Directions</a></li>
 				</ul>
 			</div>
 
