@@ -47,6 +47,20 @@
         <meta name="viewport" content="width=device-width; initial-scale=0.6666; maximum-scale=1.0; minimum-scale=0.6666" />
         <meta name="generator" content="Plone - http://plone.org" />
     </tal:notajax>
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11230245-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
 </head>
 
 <body tal:define="isRTL portal_state/is_rtl;
@@ -225,7 +239,7 @@
 				<a href="https://www.facebook.com/mlcwels"><img class="contact_icon" src="facebook.png" /></a>
 				<a href="http://twitter.com/mlcknights"><img class="contact_icon" src="twitter.png" /></a>
 				<a href="http://www.youtube.com/user/MLCathletics"><img class="contact_icon" src="youtube.png" /></a>
-				<img class="contact_icon" id="last_icon" src="rss.png" />
+				<a href="http://vimeo.com/martinluthercollege/"><img class="contact_icon" id="last_icon" src="vimeo.png" /></a>
 				</div>
 
 				<a href="http://wels.net"><img class="welslogo" src="welslogo.png" /></a>
@@ -240,11 +254,11 @@
 
 			<ul>
 				<li class="first_item"><a href="login_form">Web Admin</a></li>
-				<li><a href="feedback">Site Feedback</a></li>
-				<li><a href="about-the-site">About the Site</a></li>
+				<li><a href="/feedback">Site Feedback</a></li>
+				<li><a href="/about-the-site">About the Site</a></li>
 				<!-- <li><a href="">Style Guide</a></li> -->
 				<!-- <li><a href="">Privacy Policy</a></li> -->
-				<li class="last_item"><a href="http://www.mlc-wels.edu/home/contact">Contact MLC</a></li>
+				<li class="last_item"><a href="/contact">Contact MLC</a></li>
 			</ul>
 		</div>
 
