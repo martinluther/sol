@@ -30,7 +30,8 @@
 			<ul>
 				<li><a href="http://www.mlc-wels.edu/home/prospects">Prospective Student</a></li>
 				<li><a href="http://www.mlc-wels.edu/home/students">Current Student</a></li>
-				<li><a href="http://www.mlc-wels.edu/home/academics/adult-graduate-studies/">Graduate or Adult Student</a></li>
+				<li><a href="http://www.mlc-wels.edu/home/academics/graduate-studies/">Graduate Student</a></li>
+				<li><a href="https://www.mlc-wels.edu/home/administration/offices/specialservices/">Continuing Ed Student</a></li>
 				<li><a href="http://www.mlc-wels.edu/home/alumni">Alumni</a></li>
 				<li><a href="http://www.mlc-wels.edu/home/facstaff">Faculty or Staff</a></li>
 				<li><a href="http://www.mlc-wels.edu/home/administration/offices/stulifeBan/parents/?searchterm=parents">Parent</a></li>
@@ -40,12 +41,12 @@
 		</div>
 		
 		<div id="at_mlc">
-			<a href=""><img src="secimg.jpg"></a>
+			<a href="http://mlc-wels.edu/home/media/streams"><img src="secimg.png"></a>
 		</div>
 	</div>
 	
 	<div id="news" tal:define="news_list python:catalog(path={'query' : '/mlc/today/news'}, portal_type='News Item', sort_on='Date', sort_order='descending')[:5]">
-		<h1>News <span>&amp;</span> Notes</h1>
+		<h1><a href="/today/news">News <span>&amp;</span> Notes</a></h1>
 	
 		<div class="article" tal:repeat="item python:news_list[:]">
 		<tal:imagesetup define="image python:item.getObject()">
@@ -62,7 +63,7 @@
 	</div>
 
 		<div id="events" tal:define="events_list python:catalog(portal_type='Event', sort_on='start', sort_order='ascending', start={'query' : DateTime(), 'range':'min'})[:5]">
-			<h1>Events <span>@</span> MLC</h1>
+			<h1><a href="/today/events">Events <span>@</span> MLC</a></h1>
 
 			<div class="event" tal:repeat="item events_list">
 				<tal:date_object define="date_object python:DateTime(item.start)">
