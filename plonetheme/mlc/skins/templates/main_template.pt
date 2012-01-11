@@ -47,6 +47,8 @@
         <meta name="viewport" content="width=device-width; initial-scale=0.6666; maximum-scale=1.0; minimum-scale=0.6666" />
         <meta name="generator" content="Plone - http://plone.org" />
     </tal:notajax>
+	
+	<link rel="shortcut icon" href="/favicon.ico" />
 </head>
 
 <body tal:define="isRTL portal_state/is_rtl;
@@ -189,7 +191,7 @@
 
 				<ul class="col">
 					<li><a href="http://www.mlc-wels.edu/home/administration/offices/netserv">Network Services</a></li>
-					<li><a href="http://www.mlc-wels.edu/home/administration/offices/stulifeBan/daybook">Handbook</a></li>
+					<li><a href="https://portal.mlc-wels.edu/nwpp/Directory/byperson.php">Directory</a></li>
 					<li><a href="http://www.mlc-wels.edu/home/administration/offices/ma">Public Relations</a></li>
 					<li><a href="/financial-aid/">Financial Aid</a></li>
 					<li><a href="/organizations/">Organizations</a></li>
@@ -213,7 +215,7 @@
 				</ul>
 
 				<ul class="col">
-					<li><a href="https://portal.mlc-wels.edu/nwpp/Directory/byperson.php">Directory</a></li>
+					<li><a href="http://mlc-wels.edu/home/about/webcams">Webcams</a></li>
 					<li><a href="http://www.mlc-wels.edu/home/media/streams/">MLC Media</a></li>
 					<li><a href="https://portal.mlc-wels.edu/nwpp/Information/calendar.php">Calendar</a></li>
 					<li><a href="http://www.mlc-wels.edu/home/about/directions/">Directions</a></li>

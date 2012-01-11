@@ -174,11 +174,12 @@ input.searchImage {
 	margin-right: 4px;
 }
 
-#searchGadget {
+#searchGadget, #nolivesearchGadget {
 	width: 100%;
 	margin-bottom: 5px;
 	-moz-appearance: textField;
 }
+
 #portal-personaltools-wrapper {
   position: absolute;
   right: 0;
