@@ -41,6 +41,7 @@ plonetheme/mlc/skins/.DS_Store
 plonetheme/mlc/skins/images/.DS_Store
 plonetheme/mlc/skins/images/CONTENT.txt
 plonetheme/mlc/skins/images/facebook.png
+plonetheme/mlc/skins/images/favicon.ico
 plonetheme/mlc/skins/images/headerback.png
 plonetheme/mlc/skins/images/logo.png
 plonetheme/mlc/skins/images/mainimg.jpg
@@ -50,8 +51,10 @@ plonetheme/mlc/skins/images/picimg.jpg
 plonetheme/mlc/skins/images/rss.png
 plonetheme/mlc/skins/images/search.png
 plonetheme/mlc/skins/images/secimg.jpg
+plonetheme/mlc/skins/images/secimg.png
 plonetheme/mlc/skins/images/sectiondefault.jpg
 plonetheme/mlc/skins/images/twitter.png
+plonetheme/mlc/skins/images/vimeo.png
 plonetheme/mlc/skins/images/welslogo.png
 plonetheme/mlc/skins/images/youtube.png
 plonetheme/mlc/skins/images/icons/.DS_Store
