@@ -1,4 +1,4 @@
-## Script (Python) "file_redirection"
+## Script (Python) "File Redirection"
 ##bind container=container
 ##bind context=context
 ##bind namespace=
