@@ -195,19 +195,19 @@
 				<h1>Resources</h1>
 
 				<ul class="col">
-					<li><a href="http://www.mlc-wels.edu/home/academics/library">Library</a></li>
-					<li><a href="http://www.mlc-wels.edu/home/administration/offices/bookstore">Bookstore</a></li>
-					<li><a href="http://www.mlc-wels.edu/home/administration/offices/fitness">Fitness Center</a></li>
-					<li><a href="http://mlc-wels.edu/hr">Employment</a></li>
+					<li><a href="/library">Library</a></li>
+					<li><a href="/bookstore">Bookstore</a></li>
+					<li><a href="/fitness-center">Fitness Center</a></li>
+					<li><a href="/hr">Employment</a></li>
 					<li><a href="/consumer-information/">Consumer Info</a></li>
 				</ul>
 
 				<ul class="col">
-					<li><a href="http://www.mlc-wels.edu/home/administration/offices/netserv">Network Services</a></li>
+					<li><a href="/network-services">Network Services</a></li>
 					<li><a href="https://portal.mlc-wels.edu/nwpp/Directory/byperson.php">Directory</a></li>
-					<li><a href="http://www.mlc-wels.edu/home/administration/offices/ma">Public Relations</a></li>
-					<li><a href="/financial-aid/">Financial Aid</a></li>
-					<li><a href="/organizations/">Organizations</a></li>
+					<li><a href="/pr">Public Relations</a></li>
+					<li><a href="/financial-aid">Financial Aid</a></li>
+					<li><a href="/organizations">Organizations</a></li>
 				</ul>
 			</div>
 
@@ -228,10 +228,10 @@
 				</ul>
 
 				<ul class="col">
-					<li><a href="http://mlc-wels.edu/home/about/webcams">Webcams</a></li>
-					<li><a href="http://www.mlc-wels.edu/home/media/streams/">MLC Media</a></li>
+					<li><a href="/about/webcams">Webcams</a></li>
+					<li><a href="/media/mlc-tv">MLC TV</a></li>
 					<li><a href="https://portal.mlc-wels.edu/nwpp/Information/calendar.php">Calendar</a></li>
-					<li><a href="http://www.mlc-wels.edu/home/about/directions/">Directions</a></li>
+					<li><a href="/about/visiting-campus/directions">Directions</a></li>
 				</ul>
 			</div>
 
@@ -239,7 +239,7 @@
 				<div id="icons">
 				<a href="https://www.facebook.com/mlcwels"><img class="contact_icon" src="facebook.png" /></a>
 				<a href="http://twitter.com/mlcknights"><img class="contact_icon" src="twitter.png" /></a>
-				<a href="http://vimeo.com/martinluthercollege/"><img class="contact_icon" src="vimeo.png" /></a>
+				<a href="http://vimeopro.com/martinluthercollege/promotional-videos"><img class="contact_icon" src="vimeo.png" /></a>
 				<a href="http://www.youtube.com/user/MLCathletics"><img class="contact_icon" id="last_icon" src="youtube.png" /></a>
 				</div>
 
