@@ -251,7 +251,7 @@
 		<div id="copyright">
 			<a href="/"><img src="mlclogocolor.png" /></a>
 
-			<p>&copy; <span tal:replace="python: now.strftime("%Y")">[CURRENT YEAR]</span> Martin Luther College, New Ulm, MN 56073 | 1 (507) 354-8221</p>
+			<p>&copy; 2012 Martin Luther College, New Ulm, MN 56073 | 1 (507) 354-8221</p>
 
 			<ul>
 				<li class="first_item"><a href="login_form">Web Admin</a></li>
