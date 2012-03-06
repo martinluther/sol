@@ -28,13 +28,13 @@
 			<h1>Just For <span>You</span></h1>
 			
 			<ul>
-				<li><a href="http://www.mlc-wels.edu/home/prospects">Prospective Student</a></li>
+				<li><a href="/prospective-student">Prospective Student</a></li>
 				<li><a href="http://www.mlc-wels.edu/home/students">Current Student</a></li>
 				<li><a href="http://www.mlc-wels.edu/home/academics/graduate-studies/">Graduate Student</a></li>
 				<li><a href="https://www.mlc-wels.edu/home/administration/offices/specialservices/">Continuing Ed Student</a></li>
 				<li><a href="http://www.mlc-wels.edu/home/alumni">Alumni</a></li>
-				<li><a href="http://mlc-wels.edu/faculty-or-staff">Faculty or Staff</a></li>
-				<li><a href="http://www.mlc-wels.edu/home/administration/offices/stulifeBan/parents/?searchterm=parents">Parent</a></li>
+				<li><a href="/faculty-or-staff">Faculty or Staff</a></li>
+				<li><a href="/parent">Parent</a></li>
 				<li><a href="http://www.mlc-wels.edu/home/visitors">Community Member</a></li>
 				<li><a href="/give-to-mlc">Donor</a></li>
 			</ul>
