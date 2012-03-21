@@ -211,10 +211,8 @@
 				</ul>
 			</div>
 
-			<a href="http://gallery.mlc-wels.edu"><div id="gallery">
-				<h1>Picture Gallery</h1>
-
-				<img src="picimg.jpg">
+			<a href="/media/mlc-tv"><div id="gallery">
+				<img src="mlctv.jpg">
 			</div></a>
 
 			<div id="tools">
@@ -229,7 +227,7 @@
 
 				<ul class="col">
 					<li><a href="/about/webcams">Webcams</a></li>
-					<li><a href="/media/mlc-tv">MLC TV</a></li>
+					<li><a href="http://gallery.mlc-wels.edu">Photo Gallery</a></li>
 					<li><a href="https://portal.mlc-wels.edu/nwpp/Information/calendar.php">Calendar</a></li>
 					<li><a href="/about/visiting-campus/directions">Directions</a></li>
 				</ul>
